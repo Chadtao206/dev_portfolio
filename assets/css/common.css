@@ -492,20 +492,18 @@ img {
   max-width: 1200px;
   width: 100%;
   margin: auto;
+  padding: 20px;
 }
 .content--mlarge {
-  margin-top: 2.4rem;
+  margin-top: 1rem;
 }
+
 @media screen and (max-width: 800px) {
   .content--mlarge {
-    margin-top: 7.2rem;
+    margin-top: 2.2rem;
   }
 }
-@media screen and (max-width: 420px) {
-  .content--mlarge {
-    margin-top: 4rem;
-  }
-}
+
 @media screen and (max-width: 1250px) {
   .content {
     padding: 0 10%;
@@ -535,7 +533,7 @@ img {
 }
 @media screen and (max-width: 420px) {
   .heading {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
     padding-top: 0.2rem;
   }
 }
@@ -713,11 +711,7 @@ img {
     padding-left: 0;
   }
 }
-@media screen and (max-width: 420px) {
-  .text {
-    margin-top: 7.2rem;
-  }
-}
+
 .text--top {
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -777,12 +771,6 @@ img {
 @media screen and (max-width: 420px) {
   .text__works {
     margin-top: 4rem;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .container {
-    margin-top: 12rem;
   }
 }
 
@@ -1373,11 +1361,11 @@ header .global-nav__sns a:last-child {
   background-size: cover;
 }
 .image--about {
-  background: url(../img/about.jpg) no-repeat center;
+  background: url(../img/chad.png) no-repeat center;
   background-size: cover;
 }
 .image--contact {
-  background: url(../img/contact.jpg) no-repeat center;
+  background: url(../img/about.jpg) no-repeat center;
   background-size: cover;
 }
 .image .page-num {
@@ -1838,11 +1826,11 @@ header .global-nav__sns a:last-child {
     width: 100%;
   }
   .skill-set__list:last-child {
-    margin-top: 7.2rem;
+    margin-top: 3.2rem;
   }
 }
 .skill-set__item {
-  margin-top: 6.4rem;
+  margin-top: 5.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2021,21 +2009,27 @@ header .global-nav__sns a:last-child {
   -webkit-animation: ratio95 1.5s forwards;
   animation: ratio95 1.5s forwards;
 }
-.skill-set__bar.p50:after {
+.skill-set__bar.p85:after {
   background-image: -webkit-gradient(
     linear,
     left top,
     right top,
     from(#072142),
-    color-stop(65%, #8c2b7a)
+    color-stop(75%, #8c2b7a),
+    to(#ff4d5a)
   );
-  background-image: -webkit-linear-gradient(left, #072142, #8c2b7a 65%);
-  background-image: -o-linear-gradient(left, #072142, #8c2b7a 65%);
-  background-image: linear-gradient(to right, #072142, #8c2b7a 65%);
+  background-image: -webkit-linear-gradient(
+    left,
+    #072142,
+    #8c2b7a 75%,
+    #ff4d5a
+  );
+  background-image: -o-linear-gradient(left, #072142, #8c2b7a 75%, #ff4d5a);
+  background-image: linear-gradient(to right, #072142, #8c2b7a 75%, #ff4d5a);
 }
-.skill-set__bar.p50.in:after {
-  -webkit-animation: ratio50 1.5s forwards;
-  animation: ratio50 1.5s forwards;
+.skill-set__bar.p85.in:after {
+  -webkit-animation: ratio85 1.5s forwards;
+  animation: ratio85 1.5s forwards;
 }
 .skill-set__bar.p40:after {
   background-image: -webkit-gradient(
@@ -2163,20 +2157,20 @@ header .global-nav__sns a:last-child {
     width: 95%;
   }
 }
-@-webkit-keyframes ratio50 {
+@-webkit-keyframes ratio85 {
   0% {
     width: 10%;
   }
   to {
-    width: 50%;
+    width: 85%;
   }
 }
-@keyframes ratio50 {
+@keyframes ratio85 {
   0% {
     width: 10%;
   }
   to {
-    width: 50%;
+    width: 85%;
   }
 }
 @-webkit-keyframes ratio40 {

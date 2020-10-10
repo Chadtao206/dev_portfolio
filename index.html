@@ -25,39 +25,29 @@
     <meta property="og:title" content="CHAD TAO PORTFOLIO" />
     <title>CHAD TAO PORTFOLIO</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-115155070-1"
-    ></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-115155070-1");
-    </script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+        </script>
   </head>
   <body>
     <header>
       <a class="name" href="./index.html">Chad Tao</a>
       <div class="wrap">
         <div class="icons">
-          <a href="https://twitter.com/Goldi69s" target="_blank"
-            ><i class="fab fa-twitter"></i></a
-          ><a href="https://dribbble.com/kuon_yagi" target="_blank"
-            ><i class="fab fa-dribbble"></i></a
-          ><a href="https://www.wantedly.com/users/48483598" target="_blank"
-            >Wantedly</a
-          >
         </div>
         <div class="menuIcon js-menuBtn"></div>
       </div>
       <nav class="global-nav">
         <ul class="global-nav__list">
           <li><a href="./index.html">HOME</a></li>
-          <li><a href="">GITHUB</a></li>
-          <li><a href="./about.html">LINKEDIN</a></li>
+          <li><a target="_blank" href="https://github.com/Chadtao206">GITHUB</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/chad-tao-7b688613b/">LINKEDIN</a></li>
           <li><a class="js-contact" href="./#contact">CONTACT</a></li>
           <li class="global-nav__sns"></li>
         </ul>
@@ -130,7 +120,7 @@
                   <span></span><span class="js-letter"></span>
                 </div>
                 <div class="btn-wrap js-letter">
-                  <a class="btn" href="./reile.html">Resume</a>
+                  <a class="btn" target="_blank" href="./assets/Chad_Tao_FS_Dev.pdf">Resume</a>
                 </div>
               </div>
               <a class="image image--works" href="#">
@@ -143,164 +133,142 @@
                       </div>
                     </div>
                     <div class="content content--mlarge skill-set__flex">
-                      <ul class="skill-set__list">
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img src="./assets/img/mysql.png" alt="MySQL" />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  MySQL
-                                </h4>
-                                <p class="skill-set__year">2YEARS</p>
-                              </div>
-                              <p
-                                class="small-title small-title--skill skill-set__high"
-                              >
-                                80<span class="skill-set__ratio">%</span>
-                              </p>
+                        <ul class="skill-set__list">
+                          <li class="skill-set__item">
+                            <div class="skill-set__icon">
+                              <img src="./assets/img/html.svg" alt="HTML/CSS" />
                             </div>
-                            <div class="skill-set__bar p80 js-scroll in"></div>
-                          </div>
-                        </li>
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img src="./assets/img/mongodb.png" alt="Mongodb" />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  MongoDB
-                                </h4>
-                                <p class="skill-set__year">1YEARS</p>
+                            <div class="skill-set__detail">
+                              <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                  <h4 class="small-title small-title--skill">
+                                    HTML/CSS
+                                  </h4>
+                                  <p class="skill-set__year">3YEARS</p>
+                                </div>
+                                <p
+                                  class="small-title small-title--skill skill-set__high"
+                                >
+                                  90<span class="skill-set__ratio">%</span>
+                                </p>
                               </div>
-                              <p class="small-title small-title--skill">
-                                80<span class="skill-set__ratio">%</span>
-                              </p>
+                              <div class="skill-set__bar p90 js-scroll in"></div>
                             </div>
-                            <div class="skill-set__bar p80 js-scroll in"></div>
-                          </div>
-                        </li>
+                          </li>
+                          <li class="skill-set__item">
+                            <div class="skill-set__icon">
+                              <img
+                                src="./assets/img/reactjs.jpg"
+                                alt="React JS"
+                              />
+                            </div>
+                            <div class="skill-set__detail">
+                              <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                  <h4 class="small-title small-title--skill">
+                                    React JS
+                                  </h4>
+                                  <p class="skill-set__year">3YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">
+                                  90<span class="skill-set__ratio">%</span>
+                                </p>
+                              </div>
+                              <div class="skill-set__bar p90 js-scroll in"></div>
+                            </div>
+                          </li>
+                          <li class="skill-set__item">
+                            <div class="skill-set__icon">
+                              <img src="./assets/img/js.svg" alt="Javascript" />
+                            </div>
+                            <div class="skill-set__detail">
+                              <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                  <h4 class="small-title small-title--skill">
+                                    JavaScript
+                                  </h4>
+                                  <p class="skill-set__year">3YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">
+                                  95<span class="skill-set__ratio">%</span>
+                                </p>
+                              </div>
+                              <div class="skill-set__bar p95 js-scroll in"></div>
+                            </div>
+                          </li>
+                          <li class="skill-set__item">
+                            <div class="skill-set__icon">
+                              <img src="./assets/img/mysql.png" alt="MySQL" />
+                            </div>
+                            <div class="skill-set__detail">
+                              <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                  <h4 class="small-title small-title--skill">
+                                    MySQL
+                                  </h4>
+                                  <p class="skill-set__year">2YEARS</p>
+                                </div>
+                                <p
+                                  class="small-title small-title--skill skill-set__high"
+                                >
+                                  80<span class="skill-set__ratio">%</span>
+                                </p>
+                              </div>
+                              <div class="skill-set__bar p80 js-scroll in"></div>
+                            </div>
+                          </li>
+                          <li class="skill-set__item">
+                            <div class="skill-set__icon">
+                              <img src="./assets/img/mongodb.png" alt="Mongodb" />
+                            </div>
+                            <div class="skill-set__detail">
+                              <div class="skill-set__meta">
+                                <div class="skill-set__name">
+                                  <h4 class="small-title small-title--skill">
+                                    MongoDB
+                                  </h4>
+                                  <p class="skill-set__year">2YEARS</p>
+                                </div>
+                                <p class="small-title small-title--skill">
+                                  85<span class="skill-set__ratio">%</span>
+                                </p>
+                              </div>
+                              <div class="skill-set__bar p85 js-scroll in"></div>
+                            </div>
+                          </li>
+                        </ul>
+                        <ul class="skill-set__list">
                         <li class="skill-set__item">
                           <div class="skill-set__icon">
                             <img
-                              src="./assets/img/abstract.svg"
-                              alt="Abstract"
+                              src="./assets/img/nodejs.png"
+                              alt="NodeJS"
                             />
                           </div>
                           <div class="skill-set__detail">
                             <div class="skill-set__meta">
                               <div class="skill-set__name">
                                 <h4 class="small-title small-title--skill">
-                                  Abstract
-                                </h4>
-                                <p class="skill-set__year">HALF A YEAR</p>
-                              </div>
-                              <p class="small-title small-title--skill">
-                                80<span class="skill-set__ratio">%</span>
-                              </p>
-                            </div>
-                            <div class="skill-set__bar p80 js-scroll in"></div>
-                          </div>
-                        </li>
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img src="./assets/img/ps.svg" alt="Photoshop" />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  Photoshop
+                                  NodeJS
                                 </h4>
                                 <p class="skill-set__year">3YEARS</p>
                               </div>
                               <p class="small-title small-title--skill">
-                                70<span class="skill-set__ratio">%</span>
+                                85<span class="skill-set__ratio">%</span>
                               </p>
                             </div>
-                            <div class="skill-set__bar p70 js-scroll in"></div>
+                            <div class="skill-set__bar p85 js-scroll in"></div>
                           </div>
                         </li>
                         <li class="skill-set__item">
                           <div class="skill-set__icon">
-                            <img
-                              src="./assets/img/flinto.png"
-                              alt="Flinto for mac"
-                            />
+                            <img src="./assets/img/data.svg" alt="Algorithms" />
                           </div>
                           <div class="skill-set__detail">
                             <div class="skill-set__meta">
                               <div class="skill-set__name">
                                 <h4 class="small-title small-title--skill">
-                                  Flinto for mac
-                                </h4>
-                                <p class="skill-set__year">2MONTHS</p>
-                              </div>
-                              <p class="small-title small-title--skill">
-                                50<span class="skill-set__ratio">%</span>
-                              </p>
-                            </div>
-                            <div class="skill-set__bar p50 js-scroll in"></div>
-                          </div>
-                        </li>
-                      </ul>
-                      <ul class="skill-set__list">
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img src="./assets/img/html.svg" alt="HTML/CSS" />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  HTML/CSS
-                                </h4>
-                                <p class="skill-set__year">3YEARS</p>
-                              </div>
-                              <p
-                                class="small-title small-title--skill skill-set__high"
-                              >
-                                90<span class="skill-set__ratio">%</span>
-                              </p>
-                            </div>
-                            <div class="skill-set__bar p90 js-scroll in"></div>
-                          </div>
-                        </li>
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img
-                              src="./assets/img/reactjs.jpg"
-                              alt="React JS"
-                            />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  React JS
-                                </h4>
-                                <p class="skill-set__year">3YEARS</p>
-                              </div>
-                              <p class="small-title small-title--skill">
-                                90<span class="skill-set__ratio">%</span>
-                              </p>
-                            </div>
-                            <div class="skill-set__bar p90 js-scroll in"></div>
-                          </div>
-                        </li>
-                        <li class="skill-set__item">
-                          <div class="skill-set__icon">
-                            <img src="./assets/img/js.svg" alt="Javascript" />
-                          </div>
-                          <div class="skill-set__detail">
-                            <div class="skill-set__meta">
-                              <div class="skill-set__name">
-                                <h4 class="small-title small-title--skill">
-                                  JavaScript
+                                  Data Structures & Algorithms
                                 </h4>
                                 <p class="skill-set__year">3YEARS</p>
                               </div>
@@ -309,6 +277,28 @@
                               </p>
                             </div>
                             <div class="skill-set__bar p95 js-scroll in"></div>
+                          </div>
+                        </li>
+                        <li class="skill-set__item">
+                          <div class="skill-set__icon">
+                            <img
+                              src="./assets/img/devops.png"
+                              alt="Workflow"
+                            />
+                          </div>
+                          <div class="skill-set__detail">
+                            <div class="skill-set__meta">
+                              <div class="skill-set__name">
+                                <h4 class="small-title small-title--skill">
+                                  Workflow Design & DevOps
+                                </h4>
+                                <p class="skill-set__year">2YEARS</p>
+                              </div>
+                              <p class="small-title small-title--skill">
+                                70<span class="skill-set__ratio">%</span>
+                              </p>
+                            </div>
+                            <div class="skill-set__bar p70 js-scroll in"></div>
                           </div>
                         </li>
                       </ul>
@@ -374,7 +364,8 @@
               <div class="image image--contact">
                 <div class="image__over">
                   <div class="image__cover"></div>
-                  <div class="image__cover"></div>
+                  <div class="image__cover">
+                </div>
                 </div>
                 <div class="page-num">
                   <p>03</p>
